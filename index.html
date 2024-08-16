@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="display: flex; padding: 5%;">
+    <div id="main1">
+      <div>
+        <h1>Desserts</h1>
+      </div>
+    
+      <template>
+          <div>
+            <img class="food-img" href="">
+
+            <div style="text-align: center;">
+              <button class="add-button">
+                <img src="assets/images/icon-add-to-cart.svg"/>
+                <span>Add to Cart</span>
+              </button>
+            </div>
+            
+            <p class="category"></p>
+            <p class="name"></p>
+            <p class="price"></p>
+            
+          </div>
+      </template>
+    
+      <section class="food-list">
+        <div class="box">
+    
+        </div>
+      </section>
+    
+    </div>
+
+    <div id="main2">
+
+      <div style="padding-left: 5%;">
+        <h4 class="main2-title">Your Cart(element)</h4>
+      </div>
+
+      <template>
+        <div>
+          <p class="name"></p>
+          <p class="count"></p>
+          <p class="price"></p>
+          <p class="total-price"></p>
+        </div>
+      </template>
+
+      <div class="your-cart-list">
+
+      </div>
+
+      <div style="padding: 5%;">
+        <span>Order Total</span>
+      </div>
+
+      <div class="sector">
+        <p class="comment">
+          <img src="assets/images/icon-carbon-neutral.svg">
+          This is <span style="font-weight: bold;">carbon-neutral</span> delivery</p>
+      </div>
+
+      <div class="sector">
+        <button class="confirm-button">Confirm Order</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- 
+  Your Cart (Quantity )
+  Your added items will appear here -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
