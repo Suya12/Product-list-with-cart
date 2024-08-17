@@ -52,24 +52,32 @@
     <div id="main2">
 
       <div style="padding-left: 5%;">
-        <h4 class="main2-title">Your Cart(element)</h4>
+        <h4 class="main2-title">
+          Your Cart <span class="cart-element"></span></h4>
       </div>
 
       <template>
         <div>
-          <p class="name"></p>
-          <p class="count"></p>
-          <p class="price"></p>
-          <p class="total-price"></p>
+          <img class="thumbnail-img" href="">
+          <div>
+            <p class="name"></p>
+          </div>  
+          <input type="button" value="+" class="product-add-button">
+          <input type="button" value="-" class="product-subtraction-button">
+          <input type="button" value="remove" class="remove-button">
+          <hr/>
         </div>
       </template>
 
       <div class="your-cart-list">
+        <div>
+          
+        </div>
 
       </div>
 
       <div style="padding: 5%;">
-        <span>Order Total</span>
+        <span class="order-total"></span>
       </div>
 
       <div class="sector">
